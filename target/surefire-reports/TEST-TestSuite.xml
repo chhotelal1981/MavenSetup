@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.42" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.463" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/arya/Documents/workspace/com.qa.maven/target/surefire/surefirebooter3121203418644351004.jar /Users/arya/Documents/workspace/com.qa.maven/target/surefire 2020-03-19T01-00-34_882-jvmRun1 surefire773580035184082430tmp surefire_03515877502364797922tmp"/>
+    <property name="sun.java.command" value="/Users/arya/Documents/workspace/com.qa.maven/target/surefire/surefirebooter1848719534375515916.jar /Users/arya/Documents/workspace/com.qa.maven/target/surefire 2020-03-20T00-16-18_895-jvmRun1 surefire7111258993861661576tmp surefire_01056484326136492247tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/arya/Documents/workspace/com.qa.maven/target/test-classes:/Users/arya/Documents/workspace/com.qa.maven/target/classes:/Users/arya/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/arya/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/arya/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/arya/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.21.0/surefire-testng-utils-2.21.0.jar:/Users/arya/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/arya/Documents/workspace/com.qa.maven/target/surefire/surefirebooter3121203418644351004.jar"/>
+    <property name="surefire.real.class.path" value="/Users/arya/Documents/workspace/com.qa.maven/target/surefire/surefirebooter1848719534375515916.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -61,10 +61,10 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="mul" classname="com.qa.maven.AirtmeticConcepts" time="0.008"/>
-  <testcase name="sub" classname="com.qa.maven.AirtmeticConcepts" time="0.001"/>
+  <testcase name="mul" classname="com.qa.maven.AirtmeticConcepts" time="0.009"/>
+  <testcase name="sub" classname="com.qa.maven.AirtmeticConcepts" time="0"/>
   <testcase name="sum" classname="com.qa.maven.AirtmeticConcepts" time="0"/>
-  <testcase name="mul" classname="com.qa.maven.AirtmeticConcepts2" time="0.001"/>
-  <testcase name="sub" classname="com.qa.maven.AirtmeticConcepts2" time="0.001"/>
+  <testcase name="mul" classname="com.qa.maven.AirtmeticConcepts2" time="0"/>
+  <testcase name="sub" classname="com.qa.maven.AirtmeticConcepts2" time="0"/>
   <testcase name="sum" classname="com.qa.maven.AirtmeticConcepts2" time="0"/>
 </testsuite>
